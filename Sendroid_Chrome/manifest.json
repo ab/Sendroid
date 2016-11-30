@@ -1,34 +1,30 @@
 {
-	"name": "Sendroid",
-    "short_name": "Sendroid",
-	"description": "Easily share text or link from browser to android device.",
-	"author": "Atekihcan <com.atekihcan@gmail.com>",
-	"version": "1.0.2",
-	"icons": {
-		"16": "data/assets/logo_16.png",
-		"32": "data/assets/logo_32.png",
-		"48": "data/assets/logo_48.png",
-		"128": "data/assets/logo_128.png",
-		"256": "data/assets/logo_256.png"
-	},
-	"permissions": [
-		"storage",
-		"contextMenus",
-		"notifications",
-        "http://*/*", 
-        "https://*/*"
-	],
-	"background": {
-		"persistent": true,
-		"scripts": ["main.js"]
-	},
-	"browser_action": {
-		"default_icon": {
-			"19": "data/assets/logo_19.png",
-			"38": "data/assets/logo_38.png"
-		},
-		"default_title": "Sendroid Settings",
-		"default_popup": "data/user_prefs.html"
-	},
-	"manifest_version": 2
+   "author": "Atekihcan \u003Ccom.atekihcan@gmail.com>",
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "data/assets/logo_19.png",
+         "38": "data/assets/logo_38.png"
+      },
+      "default_popup": "data/user_prefs.html",
+      "default_title": "Sendroid Settings"
+   },
+   "description": "Easily share text or link from browser to android device.",
+   "icons": {
+      "128": "data/assets/logo_128.png",
+      "16": "data/assets/logo_16.png",
+      "256": "data/assets/logo_256.png",
+      "32": "data/assets/logo_32.png",
+      "48": "data/assets/logo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlSNedRakiYbm2hG0vqnh8bcnYHZg9Wj0W59mE/yy0S29xhtNCJy4bV+wGoZOFN+QhU8iV8Etri/3y7gz0zNzrnh7zvOQCTofBJfkZW2AQycoKqDGZ72QFn/cuL14TwGjlXhdtWWHXJnGFFwMD8TGD/tueMKCMp7lJb4Jz3EYcI5Kw3HUoFLcJL+6pLU6TNMOLthZDDs69VdiZFtDvjkza/Wq37lKHsoimK9JsKJCPipkKtJU9NiOwzE2PLjA3Q/GYODbI+Cdc2mqiYfYDXA2bL4R7W8YzvcIIE59Up8vV97GVzcGwcy/A+H+Dg6zmAO31HY2FTQsNeDN3xgFHtLRfQIDAQAB",
+   "manifest_version": 2,
+   "name": "Sendroid",
+   "permissions": [ "storage", "contextMenus", "notifications", "http://*/*", "https://*/*" ],
+   "short_name": "Sendroid",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
 }

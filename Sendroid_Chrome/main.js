@@ -3,7 +3,7 @@ var APP_ICON_18 = "data/assets/logo_18.png";
 var APP_ICON_32 = "data/assets/logo_32.png";
 var APP_ICON_36 = "data/assets/logo_36.png";
 var APP_ICON_64 = "data/assets/logo_64.png";
-var GCM_API_KEY = "GCM_API_KEY";
+var GCM_API_KEY = "AIzaSyBLl4KyAbf8aGZNmpOH2702Nik2i7EwGdc";
 
 /* checking storage */
 chrome.storage.sync.get("sendroidDB", function(result) {
